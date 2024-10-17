@@ -1,0 +1,19 @@
+# Compile of lab10step2b.v was successful.
+vsim -gui work.lab10step2b
+# vsim -gui work.lab10step2b 
+# Start time: 19:07:46 on Nov 09,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab10step2b(fast)
+add wave -position insertpoint  \
+sim:/lab10step2b/CLRN \
+sim:/lab10step2b/Enable \
+sim:/lab10step2b/Clock \
+sim:/lab10step2b/Q0 \
+sim:/lab10step2b/Q1 \
+sim:/lab10step2b/Q2 \
+sim:/lab10step2b/Q3 \
+sim:/lab10step2b/Q
+do Untitled-1.do
+# Causality operation skipped due to absence of debug database file
+# End time: 19:11:22 on Nov 09,2023, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 5

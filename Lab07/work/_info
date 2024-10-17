@@ -1,0 +1,113 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+Z1 !s12c _opt
+R0
+R1
+R0
+!s11f vlog 2023.2 2023.04, Apr 11 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/questasim64_2023.2/examples
+T_opt
+!s110 1697759828
+V0]NH:m?]Bbo7ImO_PAG8e2
+04 10 4 work adder_4bit fast 0
+04 10 4 work full_adder fast 0
+Z3 04 5 4 work lab07 fast 0
+=1-b07b25279641-6531c253-103-3904
+R0
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2023.2;77
+R2
+T_opt1
+!s110 1697760766
+VI88B5?=[b^M3cCQ_7ojX;3
+R3
+=1-b07b25279641-6531c5fe-ac-2c44
+R0
+R4
+R5
+R6
+R7
+n@_opt1
+R8
+vadder_4bit
+2U:/CPRE281/Lab07/adder_4bit.v
+Z9 !s110 1697759812
+!i10b 1
+!s100 abT2;3_3`W<@3mO3@Yh0P0
+IRA^[T_F6I>_?^i=PVZI[S3
+Z10 dU:/CPRE281/Lab07
+w1697759741
+8U:/CPRE281/Lab07/adder_4bit.v
+FU:/CPRE281/Lab07/adder_4bit.v
+!i122 12
+L0 20 80
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2023.2;77
+r1
+!s85 0
+31
+Z13 !s108 1697759812.000000
+!s107 U:/CPRE281/Lab07/adder_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab07/adder_4bit.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+vfull_adder
+2U:/CPRE281/Lab07/full_adder.v
+R9
+!i10b 1
+!s100 eLCQ98GP[]8CNFTVe?[4d2
+ITmeIbnaZD87i]Bf>:ccNE0
+R10
+w1697758552
+8U:/CPRE281/Lab07/full_adder.v
+FU:/CPRE281/Lab07/full_adder.v
+!i122 13
+L0 20 37
+R11
+R12
+r1
+!s85 0
+31
+R13
+!s107 U:/CPRE281/Lab07/full_adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab07/full_adder.v|
+!i113 0
+R14
+R7
+vlab07
+2U:/CPRE281/Lab07/lab07.v
+!s110 1697759813
+!i10b 1
+!s100 5:7b3?83`CJf9kLb9?>7B3
+IQIOSJcEeBVDb9FO1W1Aj?0
+R10
+w1697758571
+8U:/CPRE281/Lab07/lab07.v
+FU:/CPRE281/Lab07/lab07.v
+!i122 14
+L0 20 71
+R11
+R12
+r1
+!s85 0
+31
+R13
+!s107 U:/CPRE281/Lab07/lab07.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab07/lab07.v|
+!i113 0
+R14
+R7

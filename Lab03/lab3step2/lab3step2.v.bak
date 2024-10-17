@@ -1,0 +1,10 @@
+module  (F, A, B, C);
+
+input A, B, C;
+
+output F; 
+
+
+assign F=(A|(~C&B)); 
+
+endmodule

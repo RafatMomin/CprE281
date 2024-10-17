@@ -1,0 +1,73 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+!s11f vlog 2023.2 2023.04, Apr 11 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2023.2/examples
+T_opt
+!s110 1698861279
+V4f5^Li]k_egEDU2BFBi930
+04 5 4 work lab08 fast 0
+=1-b07b25279641-654290de-8a-1f1c
+R1
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.2;77
+vlab08
+2U:/CPRE281/Lab08/lab08.v
+Z3 !s110 1698861265
+!i10b 1
+!s100 9cS4<Vk_f?o[0L?Gng4^Y2
+IlUzO7OnZWL2^2M<dT2b6c1
+Z4 dU:/CPRE281/Lab08
+w1698861244
+8U:/CPRE281/Lab08/lab08.v
+FU:/CPRE281/Lab08/lab08.v
+!i122 5
+L0 20 67
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.2;77
+r1
+!s85 0
+31
+Z7 !s108 1698861265.000000
+!s107 U:/CPRE281/Lab08/lab08.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab08/lab08.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmux4to1
+2U:/CPRE281/Lab08/mux4to1.v
+R3
+!i10b 1
+!s100 d7<N>[K>ZGb8TV9gK2iQ[3
+ITE]9MkkD;1Z:;[5oboSB?1
+R4
+w1698796974
+8U:/CPRE281/Lab08/mux4to1.v
+FU:/CPRE281/Lab08/mux4to1.v
+!i122 6
+L0 1 11
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 U:/CPRE281/Lab08/mux4to1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab08/mux4to1.v|
+!i113 0
+R8
+R2

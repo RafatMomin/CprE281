@@ -1,0 +1,28 @@
+# Compile of Block1.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of Block1.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.Block1 work.multiplexer work.normal work.powersaving
+# vsim -gui work.Block1 work.multiplexer work.normal work.powersaving 
+# Start time: 14:46:07 on Sep 26,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.Block1(fast)
+# Loading work.multiplexer(fast)
+# Loading work.normal(fast)
+# Loading work.powersaving(fast)
+add wave -position insertpoint  \
+sim:/Block1/P \
+sim:/Block1/H \
+sim:/Block1/T \
+sim:/Block1/M \
+sim:/Block1/AC
+do Untitled-2.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/CPRE281/Lab04/lab4step3/wave.do
+# End time: 14:48:22 on Sep 26,2023, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 3

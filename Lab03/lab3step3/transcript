@@ -1,0 +1,28 @@
+# Compile of lab3step3.v was successful.
+vsim -gui work.lab3step3
+# vsim -gui work.lab3step3 
+# Start time: 20:00:56 on Sep 14,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab3step3(fast)
+add wave -position insertpoint  \
+sim:/lab3step3/F \
+sim:/lab3step3/C \
+sim:/lab3step3/G \
+sim:/lab3step3/W
+do aadn.do
+# Cannot open macro file: aadn.do
+do aadn
+add wave -position insertpoint  \
+sim:/lab3step3/A
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.lab3step3(fast)
+add wave -position insertpoint  \
+sim:/lab3step3/A
+do aadn.do
+# Cannot open macro file: aadn.do
+do aadn
+
+# End time: 20:06:13 on Sep 14,2023, Elapsed time: 0:05:17
+# Errors: 0, Warnings: 1

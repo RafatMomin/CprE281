@@ -1,0 +1,72 @@
+# Compile of adder_4bit.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of lab07.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of adder_4bit.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of lab07.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of adder_4bit.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of lab07.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.adder_4bit work.full_adder work.lab07
+# vsim -gui work.adder_4bit work.full_adder work.lab07 
+# Start time: 18:57:03 on Oct 19,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.adder_4bit(fast)
+# Loading work.full_adder(fast)
+# Loading work.lab07(fast)
+add wave -position insertpoint  \
+sim:/adder_4bit/x3 \
+sim:/adder_4bit/y3 \
+sim:/adder_4bit/x2 \
+sim:/adder_4bit/y2 \
+sim:/adder_4bit/x1 \
+sim:/adder_4bit/y1 \
+sim:/adder_4bit/x0 \
+sim:/adder_4bit/y0 \
+sim:/adder_4bit/Cin \
+sim:/adder_4bit/s0 \
+sim:/adder_4bit/s1 \
+sim:/adder_4bit/s2 \
+sim:/adder_4bit/Overflow \
+sim:/adder_4bit/s3 \
+sim:/adder_4bit/Cout
+ do Untitled-1.do
+quit -sim
+# End time: 19:10:46 on Oct 19,2023, Elapsed time: 0:13:43
+# Errors: 0, Warnings: 4
+vsim -gui work.lab07
+# vsim -gui work.lab07 
+# Start time: 19:12:42 on Oct 19,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab07(fast)
+add wave -position insertpoint  \
+sim:/lab07/x3 \
+sim:/lab07/y3 \
+sim:/lab07/x2 \
+sim:/lab07/y2 \
+sim:/lab07/x1 \
+sim:/lab07/y1 \
+sim:/lab07/x0 \
+sim:/lab07/y0 \
+sim:/lab07/Control \
+sim:/lab07/Overflow \
+sim:/lab07/Cout \
+sim:/lab07/s3 \
+sim:/lab07/s2 \
+sim:/lab07/s1 \
+sim:/lab07/s0
+do Untilted-1.do
+# Cannot open macro file: Untilted-1.do
+do Untitled-1.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'Cin' not found.
+# Error in macro ./Untitled-1.do line 5
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'Cin' not found.
+# 
+#     while executing
+# "force Cin 1"
+do Untitled-1.do
+# End time: 19:20:21 on Oct 19,2023, Elapsed time: 0:07:39
+# Errors: 0, Warnings: 1

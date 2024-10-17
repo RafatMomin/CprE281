@@ -1,0 +1,39 @@
+# Compile of lab08.v was successful.
+# Compile of mux4to1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab08
+# vsim -gui work.lab08 
+# Start time: 12:50:42 on Nov 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab08(fast)
+do Untitled-1.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'S[1]' not found.
+# Error in macro ./Untitled-1.do line 1
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'S[1]' not found.
+# 
+#     while executing
+# "force S[1] 0 0, 1 100 -repeat 200"
+quit -sim
+# End time: 12:54:16 on Nov 01,2023, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 2
+# Compile of lab08.v was successful.
+# Compile of mux4to1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab08
+# vsim -gui work.lab08 
+# Start time: 12:54:34 on Nov 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab08(fast)
+add wave -position insertpoint  \
+sim:/lab08/X1 \
+sim:/lab08/Xc3 \
+sim:/lab08/Xc2 \
+sim:/lab08/Xc1 \
+sim:/lab08/X0 \
+sim:/lab08/X2 \
+sim:/lab08/X3 \
+sim:/lab08/S \
+sim:/lab08/y
+do Untitled-1.do
+# End time: 12:56:08 on Nov 01,2023, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 2

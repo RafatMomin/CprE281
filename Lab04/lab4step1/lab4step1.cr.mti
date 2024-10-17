@@ -1,0 +1,8 @@
+U:/CPRE281/Lab04/lab4step1/lab4step1.sv {1 {vlog -work work -vopt -sv -stats=none U:/CPRE281/Lab04/lab4step1/lab4step1.sv
+QuestaSim-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module lab4step1
+
+Top level modules:
+	lab4step1
+
+} {} {}}

@@ -1,0 +1,15 @@
+# Compile of lab9step3a.v was successful.
+vsim -gui work.lab9step3a
+# vsim -gui work.lab9step3a 
+# Start time: 18:32:28 on Nov 02,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/Lab09/lab9step3/lab9step3a.v(40): Module 'lab9step2' is not defined.
+#  For instance 'b2v_inst' at path 'lab9step3a'
+# ** Error: U:/CPRE281/Lab09/lab9step3/lab9step3a.v(47): Module 'lab9step2' is not defined.
+#  For instance 'b2v_inst1' at path 'lab9step3a'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# End time: 18:32:33 on Nov 02,2023, Elapsed time: 0:00:05
+# Errors: 2, Warnings: 5
+cd U:/CPRE281/Lab09/lab9step3

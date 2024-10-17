@@ -1,0 +1,15 @@
+# Compile of newbob_circuit.v was successful.
+vsim -gui work.newbob_circuit
+# vsim -gui work.newbob_circuit 
+# Start time: 18:22:02 on Oct 12,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.newbob_circuit(fast)
+add wave -position insertpoint  \
+sim:/newbob_circuit/W \
+sim:/newbob_circuit/X \
+sim:/newbob_circuit/Y \
+sim:/newbob_circuit/Z \
+sim:/newbob_circuit/P
+do Untitled-2.do
+# End time: 18:27:05 on Oct 12,2023, Elapsed time: 0:05:03
+# Errors: 0, Warnings: 5

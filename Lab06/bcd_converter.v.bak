@@ -1,0 +1,2 @@
+module bcd_converter(input[7:0]binary_input,output[3:0]tens_digit,ouput[3:0]ones_digit);
+wire[3:0] tens, ones;

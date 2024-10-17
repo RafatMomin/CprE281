@@ -1,0 +1,15 @@
+# Compile of p_circuit.v was successful.
+vsim -gui work.p_circuit
+# vsim -gui work.p_circuit 
+# Start time: 18:39:56 on Oct 05,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.p_circuit(fast)
+add wave -position insertpoint  \
+sim:/p_circuit/W \
+sim:/p_circuit/X \
+sim:/p_circuit/Y \
+sim:/p_circuit/Z \
+sim:/p_circuit/P
+do Untitled-1.do
+# End time: 19:26:33 on Oct 05,2023, Elapsed time: 0:46:37
+# Errors: 0, Warnings: 5
